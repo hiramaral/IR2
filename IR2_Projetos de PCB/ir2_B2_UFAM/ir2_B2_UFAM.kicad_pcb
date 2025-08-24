@@ -9409,6 +9409,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/LIB_PLCC-84-AT/PLCC-84-AT/3D/PLCC-84-AT.stp"
+			(hide yes)
 			(offset
 				(xyz 0 -15.23999954 -0.05999999776)
 			)
@@ -9419,7 +9420,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KICAD9_3DMODEL_DIR}/ir2_J3_PLCC-84-AT.3dshapes/ir2_J3_PLCC-84-AT.stp"
+		(model "G:/Kicad/share/kicad/3dmodels/ir2_J3_PLCC-84-AT.3dshapes/ir2_J3_PLCC-84-AT.stp"
 			(offset
 				(xyz 0 -15.5 0)
 			)
@@ -12445,6 +12446,29 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD9_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm_Green.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD9_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm_Green.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13676,6 +13700,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_XLR_Neutrik_NC3MBH-B_Horizontal.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13686,7 +13711,19 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KICAD9_3DMODEL_DIR}/LIB_NC3MBH-B.3dshapes/ir2_J1_NC3MBH-B.stp"
+		(model "${KIPRJMOD}/IR2_Library.pretty/IR2_UFAM_V0_NC3MBH-B.kicad_sym"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 180)
+			)
+		)
+		(model "${KICAD9_3DMODEL_DIR}/NC3MBH-B.3dshapes/NC3MBH-B.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15894,6 +15931,51 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD9_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm_Blue.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD9_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm_Green.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD9_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm_Blue.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD9_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm_Blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18041,12 +18123,11 @@
 		(at 162.295 65.88)
 		(descr "SOIC, 8 Pin (JEITA/EIAJ ED-7311-19 variation 08-001-BBA and Atmel/Microchip, 208 mils width, https://www.jeita.or.jp/japanese/standard/book/ED-7311-19/#target/page_no=21, https://ww1.microchip.com/downloads/en/DeviceDoc/20005045C.pdf#page=23, https://ww1.microchip.com/downloads/en/DeviceDoc/doc2535.pdf#page=162), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO P-SOP SOP SOP-8 SO SO-8 8S2 S2AE/F K04-056 CASE-751BE SO8W 8-Pin-SOIC PSA W8-2 W8-4 W8MS-1 FPT-8P-M08")
-		(property "Reference" "IC1"
+		(property "Reference" "U8"
 			(at 0 -3.6 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "6fbdeed3-837b-49c7-91f2-85b2846dbf33")
+			(uuid "a6eb04ab-7848-4396-9c8e-3921c41d0496")
 			(effects
 				(font
 					(size 1 1)
@@ -18058,7 +18139,7 @@
 			(at 0 3.6 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "32a1d4df-6900-4b19-b318-c22bb260f153")
+			(uuid "fa877195-9ec7-4b8c-8c4e-ac4148f767eb")
 			(effects
 				(font
 					(size 1 1)
@@ -18071,7 +18152,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "05c4a571-1a94-4bac-b415-191859e9e47e")
+			(uuid "4bdb9f40-9e41-41ba-a43e-51cf128f7e33")
 			(effects
 				(font
 					(size 1 1)
@@ -18084,7 +18165,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e7fc68b1-a2e1-442a-906b-6d9550a2c07e")
+			(uuid "34e541f1-0f64-4920-8365-621f64b1abdc")
 			(effects
 				(font
 					(size 1 1)

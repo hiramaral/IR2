@@ -5880,7 +5880,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SOP100P600X150-8N"
+		(property "Footprint" "IR2_Library:IR2_UFAM_V1_LM358"
 			(at 98.12 74.93 0)
 			(effects
 				(font
