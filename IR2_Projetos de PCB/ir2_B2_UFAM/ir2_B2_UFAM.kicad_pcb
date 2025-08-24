@@ -21457,7 +21457,7 @@
 		)
 		(uuid "8ddd0af9-119e-4c66-8043-c7b3553cd7b2")
 	)
-	(gr_text "Projeto IR2 B2 UFAM 2026 V0"
+	(gr_text "Projeto IR2 B2 UFAM 2026 V1\n24/08/2025"
 		(at 182.04 133.66 0)
 		(layer "F.SilkS")
 		(uuid "0e9f7ba9-3b6a-4f64-bbfe-41ad492b110e")
