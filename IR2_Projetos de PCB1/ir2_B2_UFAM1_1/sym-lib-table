@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "IR2_LOCAL_Library")(type "KiCad")(uri "${KIPRJMOD}/IR2_LOCAL_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "IR2_UFAM_U1_ATMEGA328P")(type "KiCad")(uri "${KICAD9_SYMBOL_DIR}/ir2_U1_atmega328P.kicad_sym")(options "")(descr ""))
+  (lib (name "IR2_Library")(type "KiCad")(uri "${KIPRJMOD}/IR2_LOCAL_Library.kicad_sym")(options "")(descr ""))
+)

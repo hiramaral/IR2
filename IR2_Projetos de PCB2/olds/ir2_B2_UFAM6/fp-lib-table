@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "IR2_Library")(type "KiCad")(uri "${KIPRJMOD}/IR2_Library.pretty")(options "")(descr "Biblioteca específixa da Plataforma de Medições IR2_UFAM"))
+  (lib (name "IR2_UFAM_V1_LM358")(type "KiCad")(uri "C:/Program Files/KiCad/LIBRARY/LIB_LM358/LM358")(options "")(descr ""))
+  (lib (name "KiCad")(type "KiCad")(uri "C:/Program Files/KiCad/LIBRARY/LIB_LM358/LM358/KiCad")(options "")(descr ""))
+  (lib (name "IR2_UFAM_V1_Library")(type "KiCad")(uri "C:/Users/hiram/Kicad9/PROJETOS/IR2_UFAM_V1/IR2_UFAM_V1_Library.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "C:/Users/hiram/Library.pretty")(options "")(descr ""))
+)
